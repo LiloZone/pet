@@ -132,6 +132,17 @@ b, strong {
   font-weight: 700;
 }
 
+.parallax-image {
+/*
+    background-image: url(/i/fundo.svg);
+    height: 2500px;
+*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Change AOS plugin default settings */
 [data-aos=fade-down] {
   transform: translate3d(0, -35px, 0);
