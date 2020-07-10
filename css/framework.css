@@ -71,10 +71,10 @@
 .uppercase {
   text-transform: uppercase; }
 .font_first {
-  font-family: 'Patua One'; }
+  font-family: 'Roboto', sans-serif; }
 
 .font_second {
-  font-family: 'Gothic A1', sans-serif;; }
+  font-family: 'Roboto', sans-serif; }
 .box{
   position: relative;
   display: inline-block; /* Make the width of box same as image */
@@ -88,7 +88,7 @@
   text-align: center;
   top: 40%; /* Adjust this value to move the positioned div up and down */
   background: #FFBC00;
-  font-family: Arial,sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   width: 60%; /* Set the width of the positioned div */
 }
@@ -699,7 +699,7 @@ input[type=radio] + label:before {
 
 /* Other elements */
 .logo {
-  font-family: Gothic A1, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #232317;
   font-weight: 700;
@@ -11692,11 +11692,11 @@ input[type=radio] + label:before {
 
 /* Font families */
 .f-heading {
-  font-family: Gothic A1, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .f-main {
-  font-family: DM Sans, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Font sizes */
