@@ -27,6 +27,7 @@ body {
   line-height: 26px;
   color: #232317;
   -webkit-font-smoothing: antialiased;
+  background: white;
 }
 body.dev {
   background: #ccc;
@@ -2132,7 +2133,8 @@ b, strong {
 }
 
 .feature_47 .block {
-  border: 2px solid #2A9EDE;
+/*  border: 2px solid #2A9EDE;*/
+  background: #C7EEEB;
 }
 @media (max-width: 1199.98px) {
   .feature_47[class^=pb-], .feature_47[class*=" pb-"] {
