@@ -2,248 +2,270 @@
 
 
 <html lang="en" class="no-js">
-<head>
-	<title>P.E.T.</title>
+    <head>
+        <meta charset="utf-8">
+        <title>P.E.T.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="icon" href="i/favicon.png" type="image/x-icon">
+        <!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+		<!-- Bootstrap 4.5.0 CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
+		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <!-- Startup CSS (Styles for all blocks) - Remove ".min" if you would edit a css code -->
+		<link href="css/style.css" rel="stylesheet" />
+        
+        <link rel="stylesheet" href="css/shutter-assets.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styleHome.css">
+        
+        <!-- jQuery 3.5.1 -->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-	<meta charset="utf-8">
+    </head>
+    <body>
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" href="i/favicon.png" type="image/x-icon">
-	
-	<link rel="stylesheet" href="css/shutter-assets.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Container -->
+        <div id="container">
+            <!-- Header
+================================================== -->
+            <header class="clearfix left-style">
 
-</head>
-<body>
+                <a class="navbar-brand" href="index.html">
+                    <!--				<img src="i/logo.png" alt="">-->
+                </a>
 
-	<!-- Container -->
-	<div id="container">
-		<!-- Header
-		    ================================================== -->
-		<header class="clearfix left-style">
+                <a class="open-close-leftmenu" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
 
-			<a class="navbar-brand" href="index.html">
-<!--				<img src="i/logo.png" alt="">-->
-			</a>
+                <div class="left-menu">
+                    <nav class="menu">
+                        <ul class="navigate-menu mt-40">
+                            <li><a class="active drop-link" href="#">Sobre</a>
+                                <ul class="second-level">
+                                    <li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
+                                    <li><a href="sobre.html">Sobre este projeto</a></li>
+                                    <li><a href="#">Sobre as pessoas envolvidas</a></li>
+                                    <li><a href="#">Sobre a editora</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="drop-link" href="#">Ideias de <br/>Garrafa</a>
+                                <ul class="second-level">
+                                    <li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
+                                    <li><a href="#">Pequeno <br/>histórico</a></li>
+                                    <li><a href="#">Tipos mais <br/>comuns</a></li>
+                                    <li><a href="#">Isto é um <br/>objeto sonoro</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="drop-link" href="#">Categorias <br/>de Sons</a>
+                                <ul class="second-level">
+                                    <li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
+                                    <li><a href="#">Sopro</a></li>
+                                    <li><a href="#">Cordas</a></li>
+                                    <li><a href="#">Percussão</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="drop-link" href="#">Ideias de <br/>Técnicas</a>
+                                <ul class="second-level">
+                                    <li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
+                                    <li><a href="#">Mão</a></li>
+                                    <li><a href="#">Tesoura</a></li>
+                                    <li><a href="#">Fita</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="drop-link" href="#">Ideias de <br/>Ferramentas</a>
+                                <ul class="second-level">
+                                    <li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
+                                    <li><a href="#">Mão</a></li>
+                                    <li><a href="#">Tesoura</a></li>
+                                    <li><a href="#">Fita</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="drop-link" href="#">Ideias de <br/>Materiais</a>
+                                <ul class="second-level">
+                                    <li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
+                                    <li><a href="#">Plasticosos</a></li>
+                                    <li><a href="#">Madeirosos</a></li>
+                                    <li><a href="#">Metalosos</a></li>
+                                    <li><a href="#">Borrachosos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Ideias de <br/>Faixa Etária</a></li>
+                        </ul>
+                    </nav>
+<!--
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter-square"></i></a></li>
+                        <li><a class="pinterest" href="#"><i class="fa fa-pinterest-square"></i></a></li>
+                        <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a class="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                    </ul>
+-->
+                </div>
 
-			<a class="open-close-leftmenu" href="#">
-				<span></span>
-				<span></span>
-				<span></span>
-			</a>
+            </header>
+            <!-- End Header -->
 
-			<div class="left-menu">
-				<nav class="menu">
-					<ul class="navigate-menu">
-						<li><a class="active drop-link" href="#">Sobre</a>
-							<ul class="second-level">
-								<li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
-								<li><a href="sobre.html">Sobre este projeto</a></li>
-								<li><a href="#">Sobre as pessoas envolvidas</a></li>
-								<li><a href="#">Sobre a editora</a></li>
-							</ul>
-						</li>
-						<li><a class="drop-link" href="#">Ideias de Garrafa</a>
-							<ul class="second-level">
-								<li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
-								<li><a href="#">Pequeno histórico</a></li>
-								<li><a href="#">Tipos mais comuns</a></li>
-                                <li><a href="#">Isto é um objeto sonoro</a></li>
-							</ul>
-						</li>
-                        <li><a class="drop-link" href="#">Categorias de Sons</a>
-							<ul class="second-level">
-								<li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
-								<li><a href="#">Sopro</a></li>
-								<li><a href="#">Cordas</a></li>
-								<li><a href="#">Percussão</a></li>
-							</ul>
-						</li>
-						<li><a class="drop-link" href="#">Ideias de Técnicas</a>
-							<ul class="second-level">
-								<li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
-								<li><a href="#">Mão</a></li>
-								<li><a href="#">Tesoura</a></li>
-								<li><a href="#">Fita</a></li>
-							</ul>
-						</li>
-                        <li><a class="drop-link" href="#">Ideias de Ferramentas</a>
-							<ul class="second-level">
-								<li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
-								<li><a href="#">Mão</a></li>
-								<li><a href="#">Tesoura</a></li>
-								<li><a href="#">Fita</a></li>
-							</ul>
-						</li>
-                        <li><a class="drop-link" href="#">Ideias de Materiais</a>
-							<ul class="second-level">
-								<li><a href="#" class="back-main-menu"><i class="fa fa-exchange"></i></a></li>
-								<li><a href="#">Plasticosos</a></li>
-								<li><a href="#">Madeirosos</a></li>
-								<li><a href="#">Metalosos</a></li>
-								<li><a href="#">Borrachosos</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Ideias de Faixa Etária</a></li>
-					</ul>
-				</nav>
-				<ul class="social-icons">
-					<li><a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
-					<li><a class="twitter" href="#"><i class="fa fa-twitter-square"></i></a></li>
-					<li><a class="pinterest" href="#"><i class="fa fa-pinterest-square"></i></a></li>
-					<li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
-					<li><a class="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a></li>
-				</ul>
-			</div>
+            <!-- photos-section 
+================================================== -->
+            <section class="photos-section masonry">
+                <ul class="filter">
+                    <li><a class="active" href="#" data-filter="*">Todos</a></li>
+                    <li><a href="#" data-filter=".Sopro">Sopro</a></li>
+                    <li><a href="#" data-filter=".Cordas">Cordas</a></li>
+                    <li><a href="#" data-filter=".Percussão">Percussão</a></li>
+                </ul>
+                <div class="photos-box iso-call">
 
-		</header>
-		<!-- End Header -->
+                    <div class="photo-post Sopro Percussão">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 6 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-		<!-- photos-section 
-			================================================== -->
-		<section class="photos-section masonry">
-			<ul class="filter">
-				<li><a class="active" href="#" data-filter="*">Todos</a></li>
-				<li><a href="#" data-filter=".latest">Sopro</a></li>
-				<li><a href="#" data-filter=".popular">Cordas</a></li>
-				<li><a href="#" data-filter=".random">Percussão</a></li>
-			</ul>
-			<div class="photos-box iso-call">
+                    <div class="photo-post Sopro">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 8 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post latest random">
-					<img src="i/projects/1.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">6 -7 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Cordas Percussão">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 10 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post latest">
-					<img src="i/projects/2.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">8 - 11 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Sopro">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 12 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post popular random">
-					<img src="i/projects/3.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">> 12 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Cordas">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 8 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post latest">
-					<img src="i/projects/4.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">>12 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Sopro Cordas">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 12 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post popular">
-					<img src="i/projects/5.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">8 - 11 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Percussão">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 8 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post latest popular">
-					<img src="i/projects/7.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">> 12 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Cordas oldest">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 8 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post random">
-					<img src="i/projects/6.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">8 - 11 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Percussão oldest">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 10 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post popular oldest">
-					<img src="i/projects/8.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">8 - 11 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Cordas">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 6 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post random oldest">
-					<img src="i/projects/9.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">6 - 7 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Percussão oldest">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 8 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post popular">
-					<img src="i/projects/10.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">6 - 7 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post oldest">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 10 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post random oldest">
-					<img src="i/projects/11.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">8 - 11 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                    <div class="photo-post Cordas oldest">
+                        <img src="i/projects/1.svg" alt="">
+                        <div class="hover-box">
+                            <h2><a href="ideia1.html">Ideia 1</a></h2>
+                            <p><a class="age" href="#">> 10 <i class="fa fa-user"></i></a></p>
+                        </div>
+                    </div>
 
-				<div class="photo-post oldest">
-					<img src="i/projects/12.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">120 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+                </div>
+            </section>
+            <!-- End ideias section -->
 
-				<div class="photo-post popular oldest">
-					<img src="i/projects/13.jpg" alt="">
-					<div class="hover-box">
-						<h2><a href="ideia1.html">Ideia 1</a></h2>
-						<p><a class="likes" href="#">120 <i class="fa fa-user"></i></a></p>
-					</div>
-				</div>
+            <!-- footer 
+================================================== -->
+            <footer class="footer-center">
+                <a class="go-top" href="#">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+                <div class="container">
+                    <p class="copyright-line">2020. Publicado por <a href="http://www.zucchini.press" target="_blank" class="red">zucchini.press</a></p>
+                </div>
 
-			</div>
-		</section>
-		<!-- End portfolio section -->
+            </footer>
+            <!-- End footer -->
 
-		<!-- footer 
-			================================================== -->
-		<footer class="footer-center">
-			<a class="go-top" href="#">
-				<i class="fa fa-chevron-up"></i>
-			</a>
-			<div class="container">
-				<p class="copyright-line">2020. Editorado e publicado por <a href="www.zucchini.press">zucchini.press</a></p>
-			</div>
+        </div>
+        <!-- End Container -->
 
-		</footer>
-		<!-- End footer -->
+        <div class="preloader">
+            <img alt="" src="i/loader.gif">
+        </div>
 
-	</div>
-	<!-- End Container -->
+        <!-- Bootstrap 4.5.0 JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+       
+        <!-- Home -->
+        <script src="js/shutter-plugins.min.js"></script>
+        <script src="js/scriptHome.js"></script>
 
-	<div class="preloader">
-		<img alt="" src="i/loader.gif">
-	</div>
-	
-	<script src="js/shutter-plugins.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
 
-	
-</body>
+    </body>
 </html>
