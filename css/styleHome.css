@@ -1704,6 +1704,7 @@ footer.footer-center {
 @media (max-width: 1500px) {
   section.photos-section.masonry .photos-box .photo-post {
     width: 25%; }
+}
 
 @media (max-width: 1199px) {
   .navbar a.navbar-brand {
@@ -1731,7 +1732,8 @@ footer.footer-center {
     line-height: 36px; }
   footer.footer-with-instagram div.insta-widget ul.instagram-list li {
     width: 20%; }
-
+}
+    
 @media (max-width: 991px) {
   section.photos-section {
     padding: 30px; }
@@ -1821,6 +1823,7 @@ footer.footer-center {
   header.gal-style .toogle-menu {
     visibility: visible;
     opacity: 1; }
+}
 
 @media (max-width: 767px) {
   .filter-area {
@@ -1848,10 +1851,9 @@ footer.footer-center {
     width: 33.3333%; }
   footer.footer-center.dark-style a.go-top {
     right: 10px; }
-
+}
+    
 @media (max-width: 600px) {
-  .search-area {
-    display: none; }
   .fixed-vertical-header .inner-fixed-vertical a.logo {
     display: none; }
   .fixed-vertical-header a.close-menu {
@@ -1862,3 +1864,14 @@ footer.footer-center {
     width: 100%; }
   footer.footer-with-instagram div.insta-widget ul.instagram-list li {
     width: 50%; }
+}
+
+@media (max-width: 400px) {
+    section.photos-section.masonry .photos-box .photo-post .hover-box h2 {
+        bottom: 15px;
+        font-size: 25px; }
+    section.photos-section.masonry .photos-box .photo-post .hover-box p {
+        top: 15px; }
+    section.photos-section.masonry .photos-box .photo-post .hover-box a.age {
+        font-size: 15px; }
+}
